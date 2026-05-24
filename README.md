@@ -6,6 +6,8 @@ Advanced ESX vehicle locking, hotwiring, and key sharing system for FiveM.
 
 Perfect for serious roleplay, economy, survival, gang, and immersion-focused FiveM servers.
 
+Need support? Join my discord. https://discord.gg/6SCshsRxch
+
 ---
 
 # Features
