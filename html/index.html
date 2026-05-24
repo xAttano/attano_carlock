@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Vehicle Menu</title>
+</head>
+<body>
+  <div id="app" class="hidden">
+    <div class="vehicle-menu">
+      <div class="top-bar">
+        <button class="nav-btn" id="closeBtn">✕</button>
+        <div class="nav-center">
+          <button class="nav-btn small">◀</button>
+          <button class="nav-btn small">▲</button>
+          <button class="nav-btn small">▶</button>
+        </div>
+      </div>
+
+      <div class="grid-row">
+        <section class="panel power-panel">
+          <button class="big-icon green" data-action="engineToggle" title="Engine">⏻</button>
+          <button class="big-icon" data-action="lockToggle" title="Lock / Unlock">🔒</button>
+        </section>
+
+        <section class="panel doors-panel">
+          <div class="panel-title">DOORS</div>
+          <div class="door-grid">
+            <button class="cell" data-action="door" data-door="0">FL</button>
+            <button class="cell" data-action="door" data-door="4">Hood</button>
+            <button class="cell" data-action="door" data-door="1">FR</button>
+            <button class="cell" data-action="door" data-door="5">Trunk</button>
+          </div>
+        </section>
+
+        <section class="panel windows-panel">
+          <div class="panel-title">WINDOWS</div>
+          <div class="window-grid">
+            <button class="cell" data-action="window" data-window="0">FL</button>
+            <button class="cell" data-action="window" data-window="1">FR</button>
+          </div>
+        </section>
+
+        <section class="panel seats-panel">
+          <div class="panel-title">SEATS</div>
+          <div class="seat-grid" id="seatGrid"></div>
+        </section>
+
+        <section class="panel lights-panel">
+          <div class="panel-title">LIGHTS</div>
+          <div class="lights-grid">
+            <button class="pill" data-action="lights" data-mode="off">Off</button>
+            <button class="pill" data-action="lights" data-mode="full">Full</button>
+            <button class="pill" data-action="lights" data-mode="normal">On</button>
+            <button class="pill" data-action="interiorLight">Interior</button>
+          </div>
+        </section>
+      </div>
+
+      <div class="bottom-strip">
+        <div class="badge alt">ALT - FREE LOOK</div>
+        <button class="bubble disabled">🚫</button>
+        <button class="bubble amber">⛽</button>
+        <button class="gear">N</button>
+        <button class="bubble">💡</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
