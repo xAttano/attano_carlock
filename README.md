@@ -1,8 +1,8 @@
-# attanos_carlock
+# attano_carlock
 
 Advanced ESX vehicle locking, hotwiring, and key sharing system for FiveM.
 
-`attanos_carlock` is a lightweight and optimized vehicle key system built for ESX servers using ox_lib, ox_target, and ox_inventory. Players can lock and unlock owned vehicles, hotwire NPC vehicles, lockpick cars, share keys with other players, and manage vehicle interactions through a modern NUI control menu.
+`attano_carlock` is a lightweight and optimized vehicle key system built for ESX servers using ox_lib, ox_target, and ox_inventory. Players can lock and unlock owned vehicles, hotwire NPC vehicles, lockpick cars, share keys with other players, and manage vehicle interactions through a modern NUI control menu.
 
 Perfect for serious roleplay, economy, survival, gang, and immersion-focused FiveM servers.
 
@@ -54,13 +54,13 @@ Need support? Join my discord. https://discord.gg/6SCshsRxch
 
 ```bash
 cd resources
-git clone https://github.com/xAttano/attanos_carlock
+git clone https://github.com/xAttano/attano_carlock
 ```
 
 ## Manual Installation
 
 1. Download the resource
-2. Place `attanos_carlock` into your resources folder
+2. Place `attano_carlock` into your resources folder
 
 ---
 
@@ -72,7 +72,7 @@ Add this to your `server.cfg`:
 ensure ox_lib
 ensure ox_target
 ensure ox_inventory
-ensure attanos_carlock
+ensure attano_carlock
 ```
 
 ---
